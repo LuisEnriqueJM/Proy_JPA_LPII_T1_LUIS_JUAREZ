@@ -20,9 +20,9 @@ public class TestEntidades {
 		/* ****** testeando el metodo RegistrarProducto ****** */
 		/*
 		//tblprod.setIdproductot1(1);
-		tblprod.setNombret1("Silla Gamer Qunatum");
-		tblprod.setPreciot1(625);
-		tblprod.setDescripciont1("negro - blanco");
+		tblprod.setNombret1("Tableta grafica lenovo");
+		tblprod.setPreciot1(450);
+		tblprod.setDescripciont1("negro con pincel");
 		tblprod.setEstadot1("activo");
 		//fecha 1
 		Date fechaF = new Date();
@@ -44,10 +44,10 @@ public class TestEntidades {
 		/* ****** testeando el metodo ActualizarProducto ****** */
 		/* ****** testeando el metodo ActualizarProducto ****** */	
 		/*
-		tblprod.setIdproductot1(6);
-		tblprod.setNombret1("Disco Duro kingston-3");
-		tblprod.setPreciot1(333);
-		tblprod.setDescripciont1("HD kingston 1TB-3");
+		tblprod.setIdproductot1(10);
+		tblprod.setNombret1("Tableta grafica lenovo-3");
+		tblprod.setPreciot1(453);
+		tblprod.setDescripciont1("negro con pincel-3");
 		tblprod.setEstadot1("activo-3");
 		//fecha 1
 		Date fechaF = new Date();
@@ -86,16 +86,16 @@ public class TestEntidades {
 		
 		/* ****** testeando el metodo RegistrarUsuario ****** */
 		/* ****** testeando el metodo RegistrarUsuario ****** */
-		
+		/*
 		//tblprod.setIdusuariot1(1);
-		tblusu.setUsuariot1("Octavio II");
-		tblusu.setPasswordt1("5128dfg9");
+		tblusu.setUsuariot1("Juan Pablo");
+		tblusu.setPasswordt1("1f5k6h5f");
 		
 		//registrar
 		tblusuimp.RegistrarUsuario(tblusu);
 		//mensaje en consola
 		System.out.println("Dato de Usuario REGISTRADO correctamente en BD");
-		
+		*/
 		
 		
 		/* ****** testeando el metodo ActualizarUsuario ****** */
@@ -114,12 +114,12 @@ public class TestEntidades {
 		
 		/* ****** testeando el metodo EliminarProducto ****** */
 		/* ****** testeando el metodo EliminarProducto ****** */	
-		/*
-		tblusu.setIdusuariot1(1);
+		
+		tblusu.setIdusuariot1(7);
 		tblusuimp.EliminarUsuario(tblusu);
 		//mensaje en consola
 		System.out.println("Dato de Usuario ELIMINADO correctamente en BD");
-		*/		
+			
 				
 	}
 }
