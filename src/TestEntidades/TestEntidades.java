@@ -20,9 +20,9 @@ public class TestEntidades {
 		/* ****** testeando el metodo RegistrarProducto ****** */
 		/*
 		//tblprod.setIdproductot1(1);
-		tblprod.setNombret1("Disco Duro");
-		tblprod.setPreciot1(245);
-		tblprod.setDescripciont1("HD kingston 1TB");
+		tblprod.setNombret1("Silla Gamer Qunatum");
+		tblprod.setPreciot1(625);
+		tblprod.setDescripciont1("negro - blanco");
 		tblprod.setEstadot1("activo");
 		//fecha 1
 		Date fechaF = new Date();
@@ -36,7 +36,7 @@ public class TestEntidades {
 		//registrar
 		tblprodimp.RegistrarProducto(tblprod);
 		//mensaje en consola
-		System.out.println("Dato REGISTRADO correctamente en BD");
+		System.out.println("Dato de producto REGISTRADO correctamente en BD");
 		*/
 		
 		
@@ -44,11 +44,11 @@ public class TestEntidades {
 		/* ****** testeando el metodo ActualizarProducto ****** */
 		/* ****** testeando el metodo ActualizarProducto ****** */	
 		/*
-		tblprod.setIdproductot1(1);
-		tblprod.setNombret1("Disco Duro-2");
-		tblprod.setPreciot1(242);
-		tblprod.setDescripciont1("HD kingston 1TB-2");
-		tblprod.setEstadot1("activo-2");
+		tblprod.setIdproductot1(6);
+		tblprod.setNombret1("Disco Duro kingston-3");
+		tblprod.setPreciot1(333);
+		tblprod.setDescripciont1("HD kingston 1TB-3");
+		tblprod.setEstadot1("activo-3");
 		//fecha 1
 		Date fechaF = new Date();
 		Date fechaFsql = new Date(fechaF.getTime());
@@ -69,7 +69,7 @@ public class TestEntidades {
 		/* ****** testeando el metodo EliminarProducto ****** */
 		/* ****** testeando el metodo EliminarProducto ****** */		
 		/*
-		tblprod.setIdproductot1(1);
+		tblprod.setIdproductot1(6);
 		tblprodimp.EliminarProducto(tblprod);
 		//mensaje en consola
 		System.out.println("Dato ELIMINADO correctamente en BD");			
@@ -86,16 +86,16 @@ public class TestEntidades {
 		
 		/* ****** testeando el metodo RegistrarUsuario ****** */
 		/* ****** testeando el metodo RegistrarUsuario ****** */
-		/*
+		
 		//tblprod.setIdusuariot1(1);
-		tblusu.setUsuariot1("Cesar Agusto");
-		tblusu.setPasswordt1("245fgdd1");
+		tblusu.setUsuariot1("Octavio II");
+		tblusu.setPasswordt1("5128dfg9");
 		
 		//registrar
 		tblusuimp.RegistrarUsuario(tblusu);
 		//mensaje en consola
 		System.out.println("Dato de Usuario REGISTRADO correctamente en BD");
-		*/
+		
 		
 		
 		/* ****** testeando el metodo ActualizarUsuario ****** */
@@ -114,11 +114,12 @@ public class TestEntidades {
 		
 		/* ****** testeando el metodo EliminarProducto ****** */
 		/* ****** testeando el metodo EliminarProducto ****** */	
-		
+		/*
 		tblusu.setIdusuariot1(1);
 		tblusuimp.EliminarUsuario(tblusu);
 		//mensaje en consola
-		System.out.println("Dato de Usuario ELIMINADO correctamente en BD");		
+		System.out.println("Dato de Usuario ELIMINADO correctamente en BD");
+		*/		
 				
 	}
 }
