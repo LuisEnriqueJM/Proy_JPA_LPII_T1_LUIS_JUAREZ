@@ -83,9 +83,10 @@ public class TestEntidades {
 		TblUsuariot1 tblusu = new TblUsuariot1();
 		TblUsuariot1Imp tblusuimp = new TblUsuariot1Imp();		
 		
-		/* ****** testeando el metodo RegistrarUsuario ****** */
-		/* ****** testeando el metodo RegistrarUsuario ****** */
 		
+		/* ****** testeando el metodo RegistrarUsuario ****** */
+		/* ****** testeando el metodo RegistrarUsuario ****** */
+		/*
 		//tblprod.setIdusuariot1(1);
 		tblusu.setUsuariot1("Cesar Agusto");
 		tblusu.setPasswordt1("245fgdd1");
@@ -94,12 +95,31 @@ public class TestEntidades {
 		tblusuimp.RegistrarUsuario(tblusu);
 		//mensaje en consola
 		System.out.println("Dato de Usuario REGISTRADO correctamente en BD");
+		*/
 		
 		
+		/* ****** testeando el metodo ActualizarUsuario ****** */
+		/* ****** testeando el metodo ActualizarUsuario ****** */
+		/*
+		tblusu.setIdusuariot1(1);
+		tblusu.setUsuariot1("Marco Antonio-2");
+		tblusu.setPasswordt1("245fgd-2");
+		
+		//registrar
+		tblusuimp.ActualizarUsuario(tblusu);
+		//mensaje en consola
+		System.out.println("Dato de Usuario ACTUALIZADO correctamente en BD");		
+		*/
 		
 		
+		/* ****** testeando el metodo EliminarProducto ****** */
+		/* ****** testeando el metodo EliminarProducto ****** */	
 		
-		
+		tblusu.setIdusuariot1(1);
+		tblusuimp.EliminarUsuario(tblusu);
+		//mensaje en consola
+		System.out.println("Dato de Usuario ELIMINADO correctamente en BD");		
+				
 	}
 }
 
